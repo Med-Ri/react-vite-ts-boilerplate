@@ -63,3 +63,32 @@ This boilerplate follows a **feature-based and modular architecture** that promo
  ├── App.tsx       # Root application component
  ├── index.css     # Global styles
  └── main.tsx      # Application entry point
+
+ ---
+
+ ## 🚀 Getting Started
+
+ ### 1. Clone the Boilerplate
+```bash
+git clone [https://github.com/your-username/react-vite-ts-boilerplate.git](https://github.com/your-username/react-vite-ts-boilerplate.git)
+cd react-vite-ts-boilerplate
+
+ ### 2. Reset Git History
+ ```bash
+ # Remove old git metadata
+rm -rf .git
+# Initialize your new repository
+git init
+
+### 3. Install Dependencies
+ ```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+### 4. Start Developing
+```bash
+npm run dev
+The application will be available at: http://localhost:5173
