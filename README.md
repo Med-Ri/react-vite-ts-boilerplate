@@ -93,6 +93,4 @@ The application will be available at: http://localhost:5173
  ├── index.css     # Global styles
  └── main.tsx      # Application entry point
 
- ---
-
 
