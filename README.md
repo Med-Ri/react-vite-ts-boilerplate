@@ -54,6 +54,15 @@ npm run dev
 ```
 The application will be available at: http://localhost:5173
 
+---
+Create a new project from this boilerplate:
+
+```
+npx degit Med-Ri/react-vite-ts-boilerplate my-new-project
+cd my-new-project
+npm install
+npm run dev
+```
 
 ---
 
