@@ -30,39 +30,26 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 
 ## 🚀 Getting Started
  
- ### 1. Clone the Boilerplate
-git clone [https://github.com/Med-Ri/react-vite-ts-boilerplate.git]<br> 
-cd react-vite-ts-boilerplate.
+ ### Create a new project in one command:
+  ```
+  npx degit Med-Ri/react-vite-ts-boilerplate my-new-project
+  ```
 
- ### 2. Reset Git History
-Remove old git metadata<br> 
-```
-rm -rf .git
-```
-### 3.Initialize your new repository
-```
-git init
-```
+  ```
+  cd my-new-project
+  ```
 
-### 4. Install Dependencies
-```
-npm install
-```
-### 5. Start Developing
-```
-npm run dev
-```
+  ```
+  npm install
+  ```
+
+  ```
+  npm run dev
+  ```
+
+
 The application will be available at: http://localhost:5173
 
----
-Create a new project from this boilerplate:
-
-```
-npx degit Med-Ri/react-vite-ts-boilerplate my-new-project
-cd my-new-project
-npm install
-npm run dev
-```
 
 ---
 
@@ -101,5 +88,7 @@ npm run dev
  ├── App.tsx       # Root application component
  ├── index.css     # Global styles
  └── main.tsx      # Application entry point
+
+ ---
 
 
