@@ -43,7 +43,7 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 
 ## 📁 Project Structure
 
-```text
+````text
 /public
 /src
  ├── api/          # API request definitions (HTTP calls, endpoints)
@@ -70,7 +70,7 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 
  ### 1. Clone the Boilerplate
 ```bash
-git clone [https://github.com/your-username/react-vite-ts-boilerplate.git](https://github.com/your-username/react-vite-ts-boilerplate.git)
+git clone [https://github.com/Med-Ri/react-vite-ts-boilerplate.git]
 cd react-vite-ts-boilerplate
 
  ### 2. Reset Git History
@@ -92,3 +92,4 @@ pnpm install
 ```bash
 npm run dev
 The application will be available at: http://localhost:5173
+````
