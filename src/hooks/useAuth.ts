@@ -1,0 +1,1 @@
+//Shortcut to access AuthContext

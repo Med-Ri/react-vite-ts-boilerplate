@@ -1,0 +1,1 @@
+//Wrapper around sessionStorage/IndexedDB (safe token handling)

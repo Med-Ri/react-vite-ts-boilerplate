@@ -1,0 +1,1 @@
+//Roles constants (ADMIN, USER, etc.)
