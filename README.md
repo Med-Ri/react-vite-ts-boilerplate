@@ -28,6 +28,35 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 
 ---
 
+## 🚀 Getting Started
+ 
+ ### 1. Clone the Boilerplate
+git clone [https://github.com/Med-Ri/react-vite-ts-boilerplate.git]<br> 
+cd react-vite-ts-boilerplate.
+
+ ### 2. Reset Git History
+Remove old git metadata<br> 
+```
+rm -rf .git
+```
+### 3.Initialize your new repository
+```
+git init
+```
+
+### 4. Install Dependencies
+```
+npm install
+```
+### 5. Start Developing
+```
+npm run dev
+```
+The application will be available at: http://localhost:5173
+
+
+---
+
 ## ✅ Why Use This Boilerplate
 
 - ⚡ Fast development with Vite
@@ -66,30 +95,4 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 
  ---
 
- ## 🚀 Getting Started
 
- ### 1. Clone the Boilerplate
-```bash
-git clone [https://github.com/Med-Ri/react-vite-ts-boilerplate.git]
-cd react-vite-ts-boilerplate
-
- ### 2. Reset Git History
- ```bash
- # Remove old git metadata
-rm -rf .git
-# Initialize your new repository
-git init
-
-### 3. Install Dependencies
- ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-
-### 4. Start Developing
-```bash
-npm run dev
-The application will be available at: http://localhost:5173
-````
