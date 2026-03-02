@@ -40,6 +40,12 @@ export const router = createBrowserRouter([
                             { path: "/dashboard", element: <DashboardPage /> },
                         ],
                     },
+                    //{
+                        // element: <RoleRoute allowedRoles={["ADMIN"]} />,
+                        // children: [
+                        //     { path: "/your-route", element: <route-page /> },
+                        // ],
+                    //},
                 ],
             },
         ],
