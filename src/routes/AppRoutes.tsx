@@ -16,9 +16,9 @@ import NotFoundPage from "@/pages/NotFoundPage";
 
 export const router = createBrowserRouter([
     {
-        element: <AppLayout />,
+        element: <AppLayout />, // Layout is always rendered
         children: [
-            // 🌍 Public pages
+            // Public pages (guests)
             {
                 element: <PublicRoute />,
                 children: [
@@ -26,29 +26,23 @@ export const router = createBrowserRouter([
                 ],
             },
 
-            // 🔒 Protected pages
+            // Protected pages (authenticated)
             {
                 element: <ProtectedRoute />,
                 children: [
                     { path: "/", element: <HomePage /> },
-                    // 🎭 Role-based pages
+
                     {
                         element: <RoleRoute allowedRoles={["ADMIN"]} />,
                         children: [
                             { path: "/dashboard", element: <DashboardPage /> },
                         ],
                     },
-                    //{
-                        // element: <RoleRoute allowedRoles={["ADMIN"]} />,
-                        // children: [
-                        //     { path: "/your-route", element: <route-page /> },
-                        // ],
-                    //},
                 ],
             },
         ],
     },
 
-    // 404
+    // 404 fallback
     { path: "*", element: <NotFoundPage /> },
 ]);
