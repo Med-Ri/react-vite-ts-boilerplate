@@ -6,6 +6,7 @@ import AppLayout from "@/components/layout/AppLayout";
 // Guards
 import ProtectedRoute from "./ProtectedRoute";
 import PublicRoute from "./PublicRoute";
+import RoleRoute from "./RoleRoute";
 
 // Pages
 import HomePage from "@/pages/HomePage";
