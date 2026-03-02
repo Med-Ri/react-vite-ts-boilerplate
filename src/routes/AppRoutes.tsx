@@ -13,6 +13,7 @@ import HomePage from "@/pages/HomePage";
 import LoginPage from "@/pages/LoginPage";
 import DashboardPage from "@/pages/DashboardPage";
 import NotFoundPage from "@/pages/NotFoundPage";
+import RegisterPage from "@/pages/RegisterPage";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
                 element: <PublicRoute />,
                 children: [
                     { path: "/login", element: <LoginPage /> },
+                    { path: "/register", element: <RegisterPage /> },
                 ],
             },
 
