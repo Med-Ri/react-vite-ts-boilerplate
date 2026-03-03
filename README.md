@@ -17,6 +17,10 @@ This boilerplate follows a **feature-based and modular architecture** that promo
 - **Separation of concerns**  
   API communication, services, UI components, hooks, and utilities are organized into dedicated layers.
 
+- **Centralized routing**  
+  All routing logic is centralized in `routes/` using React Router v7, supporting nested layouts, public and protected routes, role-based access control, and a clear separation between routing and UI.
+
+
 - **Reusable building blocks**  
   Shared components, hooks, and utilities are centralized to reduce duplication and improve consistency.
 
@@ -90,5 +94,3 @@ The application will be available at: http://localhost:5173
  └── main.tsx      # Application entry point
 
  ---
-
-
