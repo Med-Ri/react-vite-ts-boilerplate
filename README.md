@@ -1,6 +1,6 @@
 # React Vite TypeScript Boilerplate
 
-A modern and scalable frontend boilerplate built with React 19, Vite, TypeScript, and React Router v7.
+A modern and scalable frontend boilerplate built with **React 19**, **Vite**, **TypeScript**, and **React Router v7**.
 This project is designed as a reusable foundation for dashboards, admin panels, and production-ready web applications, with a focus on modern routing, performance, and scalability.
 
 ---
